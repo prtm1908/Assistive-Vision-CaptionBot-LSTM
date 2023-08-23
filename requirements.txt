@@ -1,6 +1,5 @@
 opencv-python
 matplotlib
-json
 numpy
 time
 pickle
