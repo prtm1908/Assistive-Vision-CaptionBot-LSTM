@@ -4,4 +4,4 @@ numpy
 Flask
 keras
 tensorflow
-gunicorn
+streamlit
