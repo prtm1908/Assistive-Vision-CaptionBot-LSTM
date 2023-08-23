@@ -1,4 +1,4 @@
-cv2
+opencv-python
 matplotlib
 re
 json
@@ -7,5 +7,4 @@ time
 pickle
 Flask
 keras
-numpy
 tensorflow
