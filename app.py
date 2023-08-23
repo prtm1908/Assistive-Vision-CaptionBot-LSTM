@@ -25,4 +25,4 @@ def marks():
     return render_template('index.html',your_result=result_dic)
 
 if __name__=='__main__':
-    socketio.run(app)
+    app.run(app)
