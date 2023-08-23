@@ -32,7 +32,7 @@ This repository contains an implementation of an AI image captioning system usin
 
 4. Run the captioning script on your image:
    ```bash
-      https://ai-image-captioning-using-lstm.streamlit.app/
+   https://ai-image-captioning-using-lstm.streamlit.app/
    ```
 
    This will generate a caption for your image using the pretrained model.
