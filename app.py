@@ -82,7 +82,7 @@ def main():
     st.title("Image Captioning App")
 
     # Add a file uploader widget
-    uploaded_image = st.file_uploader("Choose an image...", type=["jpg"])
+    uploaded_image = st.file_uploader("Choose an image...", type=["jpg","png"])
 
     if uploaded_image is not None:
         # Display the uploaded image
