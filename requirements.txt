@@ -1,7 +1,6 @@
 opencv-python
 matplotlib
 numpy
-pickle
 Flask
 keras
 tensorflow
