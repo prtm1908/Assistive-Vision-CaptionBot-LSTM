@@ -1,4 +1,4 @@
-# AI-Image-Captioning-Using-Transfer-Learning
+# AI-Image-Captioning-Using-LSTM
 
 This repository contains an implementation of an AI image captioning system using Long Short-Term Memory (LSTM) networks. Image captioning is the task of generating textual descriptions for images, allowing computers to understand and describe the contents of images.
 
