@@ -1,7 +1,6 @@
 opencv-python
 matplotlib
 numpy
-time
 pickle
 Flask
 keras
