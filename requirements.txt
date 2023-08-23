@@ -1,4 +1,4 @@
-Flask==2.3.3
-keras==2.10.0
-numpy==1.25.2
-tensorflow==2.10.0
+Flask
+keras
+numpy
+tensorflow
