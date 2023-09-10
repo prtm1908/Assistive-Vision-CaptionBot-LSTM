@@ -81,7 +81,7 @@ def caption_this_image(image):
 
 #%%
 def main():
-    st.title("Image Captioning App")
+    st.title("Assistive Vision CaptionBot")
 
     # Add a file uploader widget
     uploaded_image = st.file_uploader("Choose an image...", type=["jpg"])
