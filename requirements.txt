@@ -6,3 +6,4 @@ keras
 tensorflow
 streamlit
 gTTs
+ipython
