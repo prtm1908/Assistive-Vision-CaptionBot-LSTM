@@ -16,6 +16,8 @@ from keras.layers import *
 from keras.models import *
 import streamlit as st
 from PIL import Image
+from gtts import gTTS
+import IPython.display as ipd
 
 # %%
 model=load_model('model_weights/model_19.h5')
@@ -92,6 +94,10 @@ def main():
         # Generate and display the caption
         caption = caption_this_image(uploaded_image)
         st.write("Caption:", caption)
+
+        tts = gTTS(text=caption, lang='en')
+        tts.save("caption_audio.mp3")
+        st.audio("caption_audio.mp3")
 
 if __name__ == "__main__":
     main()
