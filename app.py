@@ -18,7 +18,7 @@ import streamlit as st
 from PIL import Image
 from gtts import gTTS
 import IPython.display as ipd
-
+# pratham promotes activities
 # %%
 model=load_model('model_weights/model_19.h5')
 
